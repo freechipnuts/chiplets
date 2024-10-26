@@ -1,7 +1,5 @@
 layout: page
-title: "PAGE-TITLE"
-permalink: /URL-PATH
-
-# About me
+title: "About me"
+permalink: /about
 
 a fluffy squirrel who likes chipnuts !!
