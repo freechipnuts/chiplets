@@ -1,3 +1,4 @@
+![Chipnuts Logo](chipnuts_logo_placeholder.png)
 # Welcome to chiplets !!
 
 here we provide great IC and tech content for squirrels ;) 
