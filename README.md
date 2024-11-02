@@ -25,7 +25,7 @@ Participants will be expected to:
 Each entry should include the following components:
 
 ### 1. Research & Design Proposal
-- **Research**: Conduct in-depth research on computer vision techniques and applications that align with the competition’s objectives.
+- **Research**: Conduct in-depth research on state of the art SoC design targeting computer vision.
 - **Design Proposal**: Submit a high-level design proposal detailing the overall architecture, key components, and their roles.
 - **Justification**: Provide a well-documented justification for how the proposed design meets the application requirements.
 
