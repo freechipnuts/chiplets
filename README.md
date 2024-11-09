@@ -9,9 +9,9 @@ Here, we provide great IC and tech content for squirrels 🐿️.
 # Chiplets AI SoC Competition
 
 ## Overview
-The **Chiplets AI SoC Competition** challenges researchers and professionals to design a comprehensive **AI System on Chip (SoC)** optimized for **computer vision applications**. The competition consists of four phases, beginning with **Requirements & Architecture Design**, followed by **Implementation and RTL Design**, **Verification and Validation**, and culminating in **Synthesis, Place & Route (P&R), and Tape-Out**.
+The **Chiplets AI SoC Competition** challenges researchers and professionals to design a comprehensive **AI System on Chip (SoC)** optimized for **computer vision applications**. The competition consists of four phases, beginning with **Requirements & Architecture Design**, followed by **System C Modeling**, **Implementation and RTL Design**, **Verification and Validation**,  and culminating in **FPGA Prototyping**.
 
-In Phase I, participants are expected to define the application requirements themselves, developing a research-backed blueprint that aligns with real-world AI SoC needs in computer vision. The design should be feasible across hardware, software, and firmware domains and enable recent graduates to implement and test the system effectively.
+**In Phase I**, participants are expected to define the application requirements themselves, developing a research-backed blueprint that aligns with real-world AI SoC needs in computer vision. The design should be feasible across hardware, software, and firmware domains and enable recent graduates to implement and test the system effectively.
 
 ### Considerations for Phase I Design
 
