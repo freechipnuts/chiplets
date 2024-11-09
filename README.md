@@ -76,92 +76,82 @@ The winning design will receive [insert prize details] and may be featured on ou
 
 Please submit your team’s information using the form below:
 
-<form action="https://formsubmit.co/ase_1930@outlook.com" method="POST" enctype="multipart/form-data">
+<form action="https://formsubmit.co/assale02@protonmail.com" method="POST" enctype="multipart/form-data" style="max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
     <input type="hidden" name="_captcha" value="false">
     <!-- Team Information -->
-    <fieldset>
-        <legend>Team Information</legend>
-        <label for="team-name">Team Name:</label>
-        <input type="text" id="team-name" name="team-name" required><br>
-        <label for="team-leader-name">Team Leader's Full Name:</label>
-        <input type="text" id="team-leader-name" name="team-leader-name" required><br>
-        <label for="email">Team Leader's Email Address:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="affiliation">Team Leader's Affiliation (Organization/University):</label>
-        <input type="text" id="affiliation" name="affiliation" required><br>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+        <legend style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">Team Information</legend>
+        <label for="team-name" style="display: block; margin-bottom: 5px;">Team Name:</label>
+        <input type="text" id="team-name" name="team-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+        <label for="team-leader-name" style="display: block; margin-bottom: 5px;">Team Leader's Full Name:</label>
+        <input type="text" id="team-leader-name" name="team-leader-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+        <label for="email" style="display: block; margin-bottom: 5px;">Team Leader's Email Address:</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+        <label for="affiliation" style="display: block; margin-bottom: 5px;">Team Leader's Affiliation (Organization/University):</label>
+        <input type="text" id="affiliation" name="affiliation" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
     </fieldset>
     <!-- Team Members -->
-    <fieldset>
-        <legend>Team Members</legend>
-        <!-- Team Member 1 -->
-        <div class="team-member">
-            <h3>Team Member 1</h3>
-            <label for="member-1-name">Name:</label>
-            <input type="text" id="member-1-name" name="member-1-name" required><br>
-            <label for="member-1-specialization">Specialization:</label>
-            <input type="text" id="member-1-specialization" name="member-1-specialization" required><br>
-            <label for="member-1-cv">CV (PDF only):</label>
-            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required><br>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+        <legend style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">Team Members</legend>
+        <!-- Repeat for each team member -->
+        <div class="team-member" style="margin-bottom: 20px;">
+            <h3 style="font-size: 1.1em; font-weight: bold;">Team Member 2</h3>
+            <label for="member-1-name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="member-1-name" name="member-1-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-specialization" style="display: block; margin-bottom: 5px;">Specialization:</label>
+            <input type="text" id="member-1-specialization" name="member-1-specialization" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-cv" style="display: block; margin-bottom: 5px;">CV (PDF only):</label>
+            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required style="padding: 8px; margin-bottom: 10px;"><br>
         </div>
-        <!-- Team Member 2 -->
-        <div class="team-member">
-            <h3>Team Member 2</h3>
-            <label for="member-2-name">Name:</label>
-            <input type="text" id="member-2-name" name="member-2-name" required><br>
-            <label for="member-2-specialization">Specialization:</label>
-            <input type="text" id="member-2-specialization" name="member-2-specialization" required><br>
-            <label for="member-2-cv">CV (PDF only):</label>
-            <input type="file" id="member-2-cv" name="member-2-cv" accept=".pdf" required><br>
+        <div class="team-member" style="margin-bottom: 20px;">
+            <h3 style="font-size: 1.1em; font-weight: bold;">Team Member 3</h3>
+            <label for="member-1-name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="member-1-name" name="member-1-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-specialization" style="display: block; margin-bottom: 5px;">Specialization:</label>
+            <input type="text" id="member-1-specialization" name="member-1-specialization" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-cv" style="display: block; margin-bottom: 5px;">CV (PDF only):</label>
+            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required style="padding: 8px; margin-bottom: 10px;"><br>
         </div>
-        <!-- Team Member 3 -->
-        <div class="team-member">
-            <h3>Team Member 3</h3>
-            <label for="member-3-name">Name:</label>
-            <input type="text" id="member-3-name" name="member-3-name" required><br>
-            <label for="member-3-specialization">Specialization:</label>
-            <input type="text" id="member-3-specialization" name="member-3-specialization" required><br>
-            <label for="member-3-cv">CV (PDF only):</label>
-            <input type="file" id="member-3-cv" name="member-3-cv" accept=".pdf" required><br>
+        <div class="team-member" style="margin-bottom: 20px;">
+            <h3 style="font-size: 1.1em; font-weight: bold;">Team Member 4</h3>
+            <label for="member-1-name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="member-1-name" name="member-1-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-specialization" style="display: block; margin-bottom: 5px;">Specialization:</label>
+            <input type="text" id="member-1-specialization" name="member-1-specialization" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-cv" style="display: block; margin-bottom: 5px;">CV (PDF only):</label>
+            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required style="padding: 8px; margin-bottom: 10px;"><br>
         </div>
-        <!-- Team Member 4 -->
-        <div class="team-member">
-            <h3>Team Member 4</h3>
-            <label for="member-4-name">Name:</label>
-            <input type="text" id="member-4-name" name="member-4-name" required><br>
-            <label for="member-4-specialization">Specialization:</label>
-            <input type="text" id="member-4-specialization" name="member-4-specialization" required><br>
-            <label for="member-4-cv">CV (PDF only):</label>
-            <input type="file" id="member-4-cv" name="member-4-cv" accept=".pdf" required><br>
+        <div class="team-member" style="margin-bottom: 20px;">
+            <h3 style="font-size: 1.1em; font-weight: bold;">Team Member 5</h3>
+            <label for="member-1-name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="member-1-name" name="member-1-name" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-specialization" style="display: block; margin-bottom: 5px;">Specialization:</label>
+            <input type="text" id="member-1-specialization" name="member-1-specialization" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;"><br>
+            <label for="member-1-cv" style="display: block; margin-bottom: 5px;">CV (PDF only):</label>
+            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required style="padding: 8px; margin-bottom: 10px;"><br>
         </div>
-        <!-- Team Member 5 -->
-        <div class="team-member">
-            <h3>Team Member 5</h3>
-            <label for="member-5-name">Name:</label>
-            <input type="text" id="member-5-name" name="member-5-name" required><br>
-            <label for="member-5-specialization">Specialization:</label>
-            <input type="text" id="member-5-specialization" name="member-5-specialization" required><br>
-            <label for="member-5-cv">CV (PDF only):</label>
-            <input type="file" id="member-5-cv" name="member-5-cv" accept=".pdf" required><br>
-        </div>
+        <!-- Repeat similar blocks for Team Members 2-5 -->
     </fieldset>
     <!-- Additional Info -->
-    <fieldset>
-        <legend>Additional Information</legend>
-        <label for="desired-application">Target Application (e.g., Computer Vision, NLP):</label>
-        <select id="desired-application" name="desired-application" required>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; margin-bottom: 20px;">
+        <legend style="font-size: 1.2em; font-weight: bold; margin-bottom: 10px;">Additional Information</legend>
+        <label for="desired-application" style="display: block; margin-bottom: 5px;">Target Application (e.g., Computer Vision, NLP):</label>
+        <select id="desired-application" name="desired-application" required style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
             <option value="Computer Vision">Computer Vision</option>
             <option value="Natural Language Processing">Natural Language Processing</option>
             <option value="Speech Recognition">Speech Recognition</option>
             <option value="Robotics">Robotics</option>
             <option value="Other">Other</option>
         </select><br>
-        <label>
-            <input type="checkbox" name="terms" required>
+        <label style="display: inline-flex; align-items: center; margin-bottom: 10px;">
+            <input type="checkbox" name="terms" required style="margin-right: 8px;">
             I agree to the terms and conditions.
         </label><br>
     </fieldset>
     <!-- Submit Button -->
-    <button type="submit">Submit Your Entry</button>
+    <button type="submit" style="background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer;">
+        Submit Your Entry
+    </button>
 </form>
 
 
