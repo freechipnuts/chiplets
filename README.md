@@ -1,4 +1,6 @@
-![Chipnuts Logo](static/chipnuts_logo_placeholder.png)
+<p align="center">
+  <img src="static/chipnuts_logo_1.svg" width="200" />
+</p>
 
 # Welcome to Chiplets!
 
@@ -76,94 +78,92 @@ Please submit your team’s information using the form below:
 
 <form action="https://formsubmit.co/ase_1930@outlook.com" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="_captcha" value="false">
-    
     <!-- Team Information -->
-    <label for="team-name">Team Name:</label>
-    <input type="text" id="team-name" name="team-name" required><br>
-
-    <label for="team-leader-name">Team Leader's Full Name:</label>
-    <input type="text" id="team-leader-name" name="team-leader-name" required><br>
-
-    <label for="email">Team Leader's Email Address:</label>
-    <input type="email" id="email" name="email" required><br>
-
-    <label for="affiliation">Team Leader's Affiliation (Organization/University):</label>
-    <input type="text" id="affiliation" name="affiliation" required><br>
-    
-    <!-- Team Member 1 -->
-    <h3>Team Member 1</h3>
-    <label for="member-1-name">Name:</label>
-    <input type="text" id="member-1-name" name="member-1-name" required><br>
-
-    <label for="member-1-specialization">Specialization:</label>
-    <input type="text" id="member-1-specialization" name="member-1-specialization" required><br>
-
-    <label for="member-1-cv">CV (PDF only):</label>
-    <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required><br>
-
-    <!-- Team Member 2 -->
-    <h3>Team Member 2</h3>
-    <label for="member-2-name">Name:</label>
-    <input type="text" id="member-2-name" name="member-2-name" required><br>
-
-    <label for="member-2-specialization">Specialization:</label>
-    <input type="text" id="member-2-specialization" name="member-2-specialization" required><br>
-
-    <label for="member-2-cv">CV (PDF only):</label>
-    <input type="file" id="member-2-cv" name="member-2-cv" accept=".pdf" required><br>
-
-    <!-- Team Member 3 -->
-    <h3>Team Member 3</h3>
-    <label for="member-3-name">Name:</label>
-    <input type="text" id="member-3-name" name="member-3-name" required><br>
-
-    <label for="member-3-specialization">Specialization:</label>
-    <input type="text" id="member-3-specialization" name="member-3-specialization" required><br>
-
-    <label for="member-3-cv">CV (PDF only):</label>
-    <input type="file" id="member-3-cv" name="member-3-cv" accept=".pdf" required><br>
-
-    <!-- Team Member 4 -->
-    <h3>Team Member 4</h3>
-    <label for="member-4-name">Name:</label>
-    <input type="text" id="member-4-name" name="member-4-name" required><br>
-
-    <label for="member-4-specialization">Specialization:</label>
-    <input type="text" id="member-4-specialization" name="member-4-specialization" required><br>
-
-    <label for="member-4-cv">CV (PDF only):</label>
-    <input type="file" id="member-4-cv" name="member-4-cv" accept=".pdf" required><br>
-
-    <!-- Team Member 5 -->
-    <h3>Team Member 5</h3>
-    <label for="member-5-name">Name:</label>
-    <input type="text" id="member-5-name" name="member-5-name" required><br>
-
-    <label for="member-5-specialization">Specialization:</label>
-    <input type="text" id="member-5-specialization" name="member-5-specialization" required><br>
-
-    <label for="member-5-cv">CV (PDF only):</label>
-    <input type="file" id="member-5-cv" name="member-5-cv" accept=".pdf" required><br>
-
+    <fieldset>
+        <legend>Team Information</legend>
+        <label for="team-name">Team Name:</label>
+        <input type="text" id="team-name" name="team-name" required><br>
+        <label for="team-leader-name">Team Leader's Full Name:</label>
+        <input type="text" id="team-leader-name" name="team-leader-name" required><br>
+        <label for="email">Team Leader's Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="affiliation">Team Leader's Affiliation (Organization/University):</label>
+        <input type="text" id="affiliation" name="affiliation" required><br>
+    </fieldset>
+    <!-- Team Members -->
+    <fieldset>
+        <legend>Team Members</legend>
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <h3>Team Member 1</h3>
+            <label for="member-1-name">Name:</label>
+            <input type="text" id="member-1-name" name="member-1-name" required><br>
+            <label for="member-1-specialization">Specialization:</label>
+            <input type="text" id="member-1-specialization" name="member-1-specialization" required><br>
+            <label for="member-1-cv">CV (PDF only):</label>
+            <input type="file" id="member-1-cv" name="member-1-cv" accept=".pdf" required><br>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <h3>Team Member 2</h3>
+            <label for="member-2-name">Name:</label>
+            <input type="text" id="member-2-name" name="member-2-name" required><br>
+            <label for="member-2-specialization">Specialization:</label>
+            <input type="text" id="member-2-specialization" name="member-2-specialization" required><br>
+            <label for="member-2-cv">CV (PDF only):</label>
+            <input type="file" id="member-2-cv" name="member-2-cv" accept=".pdf" required><br>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <h3>Team Member 3</h3>
+            <label for="member-3-name">Name:</label>
+            <input type="text" id="member-3-name" name="member-3-name" required><br>
+            <label for="member-3-specialization">Specialization:</label>
+            <input type="text" id="member-3-specialization" name="member-3-specialization" required><br>
+            <label for="member-3-cv">CV (PDF only):</label>
+            <input type="file" id="member-3-cv" name="member-3-cv" accept=".pdf" required><br>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="team-member">
+            <h3>Team Member 4</h3>
+            <label for="member-4-name">Name:</label>
+            <input type="text" id="member-4-name" name="member-4-name" required><br>
+            <label for="member-4-specialization">Specialization:</label>
+            <input type="text" id="member-4-specialization" name="member-4-specialization" required><br>
+            <label for="member-4-cv">CV (PDF only):</label>
+            <input type="file" id="member-4-cv" name="member-4-cv" accept=".pdf" required><br>
+        </div>
+        <!-- Team Member 5 -->
+        <div class="team-member">
+            <h3>Team Member 5</h3>
+            <label for="member-5-name">Name:</label>
+            <input type="text" id="member-5-name" name="member-5-name" required><br>
+            <label for="member-5-specialization">Specialization:</label>
+            <input type="text" id="member-5-specialization" name="member-5-specialization" required><br>
+            <label for="member-5-cv">CV (PDF only):</label>
+            <input type="file" id="member-5-cv" name="member-5-cv" accept=".pdf" required><br>
+        </div>
+    </fieldset>
     <!-- Additional Info -->
-    <label for="desired-application">Target Application (e.g., Computer Vision, NLP):</label>
-    <select id="desired-application" name="desired-application" required>
-        <option value="Computer Vision">Computer Vision</option>
-        <option value="Natural Language Processing">Natural Language Processing</option>
-        <option value="Speech Recognition">Speech Recognition</option>
-        <option value="Robotics">Robotics</option>
-        <option value="Other">Other</option>
-    </select><br>
-
-    <!-- Consent Checkbox -->
-    <label>
-        <input type="checkbox" name="terms" required>
-        I agree to the terms and conditions.
-    </label><br>
-
+    <fieldset>
+        <legend>Additional Information</legend>
+        <label for="desired-application">Target Application (e.g., Computer Vision, NLP):</label>
+        <select id="desired-application" name="desired-application" required>
+            <option value="Computer Vision">Computer Vision</option>
+            <option value="Natural Language Processing">Natural Language Processing</option>
+            <option value="Speech Recognition">Speech Recognition</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <label>
+            <input type="checkbox" name="terms" required>
+            I agree to the terms and conditions.
+        </label><br>
+    </fieldset>
     <!-- Submit Button -->
     <button type="submit">Submit Your Entry</button>
 </form>
+
 
 
 ---
