@@ -29,7 +29,7 @@ Since many computer vision applications are deployed in resource-constrained env
 3. **Educational Task Breakdown**: Break down the design into structured tasks that fresh graduates in software, hardware, and firmware can understand and implement.
 4. **Testing and Validation Plan**: Develop a robust testing and validation plan to guide implementation and ensure quality.
 
-## Contest Entry Requirements
+## Contest Submission Guidelines
 
 Each entry should include the following components:
 
