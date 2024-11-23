@@ -31,12 +31,12 @@ Since many computer vision applications are deployed in resource-constrained env
 
 ## Contest Submission Guidelines
 
-Each entry should include the following components:
+The final expected deliverable for the contest is a document composed of 3 main sections which are:
 
 ### 1. Research & Design Proposal
-- **Research**: Conduct in-depth research on state of the art SoC design targeting computer vision.
-- **Design Proposal**: Submit a high-level design proposal detailing the overall architecture, key components, and their roles.
-- **Justification**: Provide a well-documented justification for how the proposed design meets the application requirements.
+- **Research**: Participants are expected to conduct in-depth research on state of the art SoC design targeting computer vision. They are allowed to choose an already existing designs that meet the requirements. In addition, they have their space for innovation and creativity to build upon the state of the art. In the latter case, a justification based on thorough analysis is further required; this effort is taken into consideration when evaluating a contest entry. Accordingly, the first section should provide a brief literature review of chip architecting efforts that have been made.
+- **Design Proposal**: The next subsection represents a conclusion on the previous subsection. It can either select one of the previous papers as a candidate paper for the participant's proposal or it can be an innovation of the participants where they can modify the design to yield better figure of merits for the design.
+- **Justification**: The final subsection of the first section is the justification for slecting the candidate paper and/or the innovative modifications introduced by the participant. It has to be based on an elaborate comparison between the references used by the participants.
 
 ### 2. System Breakdown
 - **Task Breakdown**: Decompose the design into manageable tasks, providing clarity and direction for fresh graduates in software, hardware, and firmware.
