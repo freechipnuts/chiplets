@@ -25,7 +25,9 @@ To handle common neural network architectures, the ASIC should also support batc
 Since many computer vision applications are deployed in resource-constrained environments, the chip must also support quantization and mixed-precision arithmetic. These techniques reduce the model size and enhance power efficiency, which is particularly advantageous for edge applications like autonomous vehicles and surveillance systems. By incorporating these capabilities, the ASIC can deliver high performance, and energy efficiency, ensuring it meets the diverse needs of modern computer vision tasks across a wide range of devices and platforms.
 
 Running an end-to-end workload requires a complete software stack to map high-level models to the programming interface of the target accelerator. Frameworks like TensorFlo and PyTorch allow easy model expression and scalable training, enabling seamless compilation for deployment on the target accelerator.  Below is an example of an  open sourced deep learning acceleration stack called  [**VTA**](https://tvm.apache.org/2018/07/12/vta-release-announcement)
-<img src="vta_stack.png" alt="VTA STACK" width="600"/>
+<p align="center">
+  <img src="vta_stack.png" alt="VTA STACK" width="600"/>
+</p>
 
 ## Objectives
 1. **Application-Focused Design**: Create a research-backed design for a computer vision application that addresses specified application requirements.
