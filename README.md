@@ -31,7 +31,7 @@ Since many computer vision applications are deployed in resource-constrained env
 2. **Justification**: Provide a well-supported explanation for how and why this design meets the requirements.
 3. **Educational Task Breakdown**: Break down the design into structured tasks that fresh graduates in software, hardware, and firmware can understand and implement.
 4. **Testing and Validation Plan**: Develop a robust testing and validation plan to guide implementation and ensure quality.
-5. ****
+5. **Compelte Software Stack Specs**
 
 ## Contest Submission Guidelines
 
@@ -50,6 +50,10 @@ The final expected deliverable for the contest is a document composed of 3 main 
 - **Testing Plan**: Outline a comprehensive testing plan that specifies testing protocols for different components.
 - **Validation Plan**: Define validation criteria and methods to ensure that the design meets application requirements.
 - **Implementation Guidelines**: Provide guidelines for RTL testbench development and software tests, enabling fresh graduates to verify their implementations against specified benchmarks.
+### 4. Software Stack
+- **Spported Frameworks**: Models from Popular Frameworks such as (TensorFlow, PyTorch) should be supported allowing for seamless compilation and deployment on specialized hardware.
+- **Graph and Operator Optimizer**: The graph optimizer performs general optimizations like operator fusion and partial evaluation, with extensions for workload-specific improvements such as quantization, data layout transformations, and maximizing data reuse. The operator optimizer automates workload scheduling, optimizing computation tiling, parallelism, and operator partitioning to maximize hardware efficiency.
+- **JIT Compiler and Runtime**: Enables cooperative execution of deep learning workloads between a CPU host and the accelerator.
 
 ## Judging Criteria
 - **Application Relevance**: How effectively the design addresses the specified computer vision application requirements.
