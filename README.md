@@ -28,7 +28,7 @@ Running an end-to-end workload requires a complete software stack to map high-le
 <p align="center">
   <img src="vta_stack.png" alt="VTA STACK" width="600"/>
   <br>
-  <em>Figure 1: The VTA stack showing the various hardware and software components involved in processing workloads.</em>
+  <em>Figure 1: The VTA stack showing the various hardware and software components involved in processing workloads. [Source](https://tvm.apache.org/2018/07/12/vta-release-announcement) </em>
 </p>
 
 
