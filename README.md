@@ -14,6 +14,7 @@ Participants will be expected to:
 2. Provide a strong justification for why their proposed design meets these requirements.
 3. Break down the high-level system design into actionable tasks suitable for fresh graduates from software, hardware, and firmware branches.
 4. Develop a comprehensive testing and validation plan that competing students can follow for their RTL testbenches and software validation.
+5. Design a complete software stack required to execute an end-to-end workload on the target ASIC, enabling the translation of high-level models from frameworks like PyTorch and TensorFlow into instructions compatible with the programming interface exposed by the ASIC.
 
 ## Target Application:
 Computer vision applications are varied and include essential tasks such as **object detection**, **image segmentation**, **motion tracking**, **scene reconstruction**, and **anomaly detection**, among others. Each of these applications requires specific neural network operations that demand high processing efficiency and low latency to be effective in real-time. Therefore, an ASIC chip designed for computer vision must support a diverse set of operations that enable these applications to run smoothly and accurately. The chip must also demonstrate its capability by performing competitively on the **[MLPerf Inference Benchmark](https://arxiv.org/pdf/1911.02549)**.
@@ -30,6 +31,7 @@ Since many computer vision applications are deployed in resource-constrained env
 2. **Justification**: Provide a well-supported explanation for how and why this design meets the requirements.
 3. **Educational Task Breakdown**: Break down the design into structured tasks that fresh graduates in software, hardware, and firmware can understand and implement.
 4. **Testing and Validation Plan**: Develop a robust testing and validation plan to guide implementation and ensure quality.
+5. ****
 
 ## Contest Submission Guidelines
 
