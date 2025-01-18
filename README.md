@@ -28,9 +28,8 @@ Running an end-to-end workload requires a complete software stack to map high-le
 <p align="center">
   <img src="vta_stack.png" alt="VTA STACK" width="600"/>
   <br>
-  <em>Figure 1: The VTA stack showing the various hardware and software components involved in processing workloads. [Source](https://tvm.apache.org/2018/07/12/vta-release-announcement) </em>
+  <em>Figure 1: The VTA stack showing the various hardware and software components involved in processing workloads. <a href="https://tvm.apache.org/2018/07/12/vta-release-announcement" target="_blank">Source</a></em>
 </p>
-
 
 ## Objectives
 1. **Application-Focused Design**: Create a research-backed design for a computer vision application that addresses specified application requirements.
